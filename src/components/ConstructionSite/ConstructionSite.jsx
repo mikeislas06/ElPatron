@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../../assets/img/elPatronLogo.png';
 
-import './ConstructionSite.css';
+import './ConstructionSite.scss';
 
 const ConstructionSite = () => {
 	return (
