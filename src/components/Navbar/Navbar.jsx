@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa6';
 
 import logo from '../../assets/img/elPatronLogo.png';
@@ -26,28 +26,28 @@ const Navbar = () => {
 					<NavLink
 						to='/'
 						className='Navbar__menu__item'
-						activeClassName='active'
+						activeclassname='active'
 					>
 						Inicio
 					</NavLink>
 					<NavLink
 						to='/menu'
 						className='Navbar__menu__item'
-						activeClassName='active'
+						activeclassname='active'
 					>
 						Menú
 					</NavLink>
 					<NavLink
 						to='/sucursal'
 						className='Navbar__menu__item'
-						activeClassName='active'
+						activeclassname='active'
 					>
 						Sucursal
 					</NavLink>
 					<NavLink
 						to='/contacto'
 						className='Navbar__menu__item'
-						activeClassName='active'
+						activeclassname='active'
 					>
 						Contacto
 					</NavLink>
@@ -59,7 +59,7 @@ const Navbar = () => {
 				<NavLink
 					to='/'
 					className='Navbar__menu__dropdown_item'
-					activeClassName='active'
+					activeclassname='active'
 					onClick={() => setShowMenu(false)}
 				>
 					Inicio
@@ -67,7 +67,7 @@ const Navbar = () => {
 				<NavLink
 					to='/menu'
 					className='Navbar__menu__dropdown_item'
-					activeClassName='active'
+					activeclassname='active'
 					onClick={() => setShowMenu(false)}
 				>
 					Menú
@@ -75,7 +75,7 @@ const Navbar = () => {
 				<NavLink
 					to='/sucursal'
 					className='Navbar__menu__dropdown_item'
-					activeClassName='active'
+					activeclassname='active'
 					onClick={() => setShowMenu(false)}
 				>
 					Sucursal
@@ -83,7 +83,7 @@ const Navbar = () => {
 				<NavLink
 					to='/contacto'
 					className='Navbar__menu__dropdown_item'
-					activeClassName='active'
+					activeclassname='active'
 					onClick={() => setShowMenu(false)}
 				>
 					Contacto

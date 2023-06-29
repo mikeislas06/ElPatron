@@ -1,0 +1,110 @@
+@import '../../../mixins';
+
+.Hero {
+	position: relative;
+	overflow: hidden;
+	height: calc(100vh - 130px);
+
+	@include tablet {
+		height: calc(80vh - 130px);
+	}
+
+	@include desktop {
+		height: calc(100vh - 130px);
+	}
+}
+
+.Hero__video-background {
+	user-select: none;
+
+	@include desktop {
+		width: 100%;
+	}
+}
+
+.Hero__content {
+	position: absolute;
+	background-color: #0000004d;
+	border-radius: 4px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 50%;
+	width: 70%;
+
+	@include tablet {
+		height: 70%;
+		width: unset;
+	}
+
+	@include desktop {
+		padding: 40px;
+	}
+}
+
+.Hero__content__decoration {
+	width: 80%;
+	margin-bottom: 20px;
+
+	@include tablet {
+		width: 50%;
+		margin-bottom: 20px;
+	}
+}
+
+.Hero__content__title1 {
+	color: var(--secondary-300);
+	font-family: 'Abril Fatface', sans-serif;
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+
+	@include tablet {
+		font-size: 3.5rem;
+	}
+
+	@include large {
+		font-size: 5rem;
+		margin-bottom: 50px;
+	}
+}
+
+.Hero__content__title2 {
+	color: white;
+	font-family: 'Abril Fatface', sans-serif;
+	font-size: 1.7rem;
+	margin-bottom: 20px;
+
+	@include tablet {
+		font-size: 2.5rem;
+	}
+
+	@include large {
+		font-size: 3.5rem;
+		margin-bottom: 50px;
+	}
+}
+
+.Hero__content__description {
+	color: white;
+	font-size: 0.8rem;
+	margin-bottom: 20px;
+
+	@include tablet {
+		font-size: 1rem;
+	}
+
+	@include large {
+		font-size: 1.2rem;
+		margin-bottom: 50px;
+	}
+}
+
+.Hero__content__buttons {
+	display: flex;
+	gap: 10px;
+}

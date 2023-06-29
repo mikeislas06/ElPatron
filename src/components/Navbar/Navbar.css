@@ -1,11 +1,11 @@
 .Navbar {
-  background-color: var(--bg-100);
+  background-color: var(--bg-000);
   height: 130px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0px 30px;
-  border-bottom: solid 2px var(--secondary-200); }
+  border-bottom: solid 2px var(--secondary-300); }
   @media only screen and (min-width: 768px) {
     .Navbar {
       padding: 0px 70px; } }
@@ -25,7 +25,7 @@
   font: inherit;
   cursor: pointer;
   outline: inherit;
-  background-color: var(--secondary-100);
+  background-color: var(--secondary-300);
   border-radius: 3px;
   color: white;
   width: 40px;
@@ -51,13 +51,13 @@
   transition: color 0.2s linear, font-size 0.2s linear;
   text-align: center; }
   .Navbar__menu__item.active {
-    color: var(--secondary-100); }
+    color: var(--secondary-300); }
   .Navbar__menu__item:hover {
-    color: var(--secondary-100);
+    color: var(--secondary-300);
     font-size: larger; }
 
 .Navbar__menu__dropdown {
-  background-color: var(--secondary-200);
+  background-color: var(--secondary-300);
   color: white;
   display: flex;
   flex-direction: column;

@@ -1,0 +1,35 @@
+@import '../../../../mixins';
+
+.Button {
+	border-radius: 25px;
+	padding: 5px;
+	font-size: 0.5rem;
+
+	@include tablet {
+		padding: 15px;
+		font-size: 0.8rem;
+	}
+
+	@include desktop {
+		font-size: 1rem;
+	}
+}
+
+.outlined {
+	border: 1px solid var(--secondary-300);
+	transition: background-color 0.2s linear;
+
+	&:hover {
+		background-color: var(--secondary-300);
+	}
+}
+
+.contained {
+	background-color: var(--secondary-300);
+	transition: background-color 0.2s linear, border 0.2s linear;
+
+	&:hover {
+		background-color: transparent;
+		border: solid 1px var(--secondary-300);
+	}
+}

@@ -1,9 +1,14 @@
 import React from 'react';
 
 import './HomePage.scss';
+import HeroSection from './HeroSection/HeroSection';
 
 const HomePage = () => {
-	return <div>Home</div>;
+	return (
+		<>
+			<HeroSection />
+		</>
+	);
 };
 
 export default HomePage;
