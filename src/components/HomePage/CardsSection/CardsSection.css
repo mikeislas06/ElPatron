@@ -1,0 +1,90 @@
+.Cards__decorator {
+  border-bottom: 40px solid #fff;
+  border-left: 30vw solid transparent;
+  border-right: 30vw solid transparent;
+  width: 0;
+  height: 0;
+  top: -40px;
+  content: '';
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+.Cards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+  place-items: center;
+  padding: 60px 35px;
+  width: 100%; }
+  @media only screen and (min-width: 768px) {
+    .Cards {
+      grid-template-columns: repeat(3, 1fr); } }
+  @media only screen and (min-width: 992px) {
+    .Cards {
+      width: 90%;
+      margin: 0 auto;
+      gap: 25px; } }
+
+.Cards__card {
+  text-align: center;
+  width: 100%;
+  height: 170px; }
+
+.c1 {
+  background-color: var(--secondary-300);
+  border: 1px solid var(--secondary-300); }
+
+.c2 {
+  background-color: var(--bg-100);
+  border: 1px solid var(--bg-100); }
+
+.c3 {
+  background-color: var(--secondary-500);
+  border: 1px solid var(--secondary-500);
+  color: var(--secondary-600); }
+
+.Cards__card__front {
+  color: white;
+  font-family: 'Abril Fatface', sans-serif;
+  font-size: 1.5rem;
+  padding: 40px;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px; }
+  @media only screen and (min-width: 992px) {
+    .Cards__card__front {
+      font-size: 2.2rem; } }
+
+.Cards__card__back {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  border-radius: 5px;
+  padding: 15px; }
+  .Cards__card__back h4 {
+    color: var(--secondary-300);
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 1.2rem;
+    margin: 0; }
+    @media only screen and (min-width: 992px) {
+      .Cards__card__back h4 {
+        font-size: 2rem; } }
+  .Cards__card__back p {
+    color: black;
+    font-size: 0.8rem; }
+    @media only screen and (min-width: 992px) {
+      .Cards__card__back p {
+        font-size: 1rem; } }
+
+.b1 {
+  border: 1px solid var(--secondary-300); }
+
+.b2 {
+  border: 1px solid var(--bg-100); }
+
+.b3 {
+  border: 1px solid var(--secondary-500); }

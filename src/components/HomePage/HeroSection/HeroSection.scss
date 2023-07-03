@@ -2,8 +2,8 @@
 
 .Hero {
 	position: relative;
-	overflow: hidden;
 	height: calc(100vh - 130px);
+	overflow: hidden;
 
 	@include tablet {
 		height: calc(80vh - 130px);
@@ -40,9 +40,11 @@
 	@include tablet {
 		height: 70%;
 		width: unset;
+		padding: 0px 15px;
 	}
 
 	@include desktop {
+		height: 80%;
 		padding: 40px;
 	}
 }
@@ -58,25 +60,10 @@
 }
 
 .Hero__content__title1 {
+	font-family: 'Abril Fatface', sans-serif;
+	font-size: 2rem;
 	color: var(--secondary-300);
-	font-family: 'Abril Fatface', sans-serif;
-	font-size: 2.5rem;
-	margin-bottom: 20px;
-
-	@include tablet {
-		font-size: 3.5rem;
-	}
-
-	@include large {
-		font-size: 5rem;
-		margin-bottom: 50px;
-	}
-}
-
-.Hero__content__title2 {
-	color: white;
-	font-family: 'Abril Fatface', sans-serif;
-	font-size: 1.7rem;
+	letter-spacing: 3px;
 	margin-bottom: 20px;
 
 	@include tablet {
@@ -89,13 +76,29 @@
 	}
 }
 
+.Hero__content__title2 {
+	color: white;
+	font-family: 'Abril Fatface', sans-serif;
+	font-size: 1.7rem;
+	margin-bottom: 20px;
+
+	@include tablet {
+		font-size: 3rem;
+	}
+
+	@include large {
+		font-size: 4rem;
+		margin-bottom: 50px;
+	}
+}
+
 .Hero__content__description {
 	color: white;
 	font-size: 0.8rem;
 	margin-bottom: 20px;
 
 	@include tablet {
-		font-size: 1rem;
+		font-size: 1.2rem;
 	}
 
 	@include large {

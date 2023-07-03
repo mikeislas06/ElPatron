@@ -1,0 +1,38 @@
+@import '../../../../mixins';
+
+.Steak {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
+	gap: 20px;
+}
+
+.Steak__image {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+
+	@include desktop {
+		width: 200px;
+		height: 200px;
+	}
+}
+
+.Steak__name {
+	font-family: 'Abril Fatface', sans-serif;
+	font-size: 1.7rem;
+
+	@include tablet {
+		font-size: 2rem;
+	}
+}
+
+.Steak__description {
+	font-size: 0.9rem;
+
+	@include tablet {
+		font-size: 1.1rem;
+	}
+}

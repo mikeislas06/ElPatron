@@ -1,0 +1,56 @@
+.Featured {
+  position: relative; }
+
+.Featured__decorator {
+  border-top: 40px solid #fff;
+  border-left: 30vw solid transparent;
+  border-right: 30vw solid transparent;
+  width: 0;
+  height: 0;
+  top: 0;
+  content: '';
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+.Featured__hero {
+  height: 50vh;
+  background: url("../../../assets//img/carnes.png");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff; }
+  .Featured__hero .Featured__hero__content {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 35px 20px; }
+    @media only screen and (min-width: 768px) {
+      .Featured__hero .Featured__hero__content {
+        width: 60vw; } }
+    .Featured__hero .Featured__hero__content h4 {
+      font-family: 'Abril Fatface', sans-serif;
+      font-size: 2rem;
+      color: var(--secondary-100); }
+    .Featured__hero .Featured__hero__content p {
+      font-size: 1rem;
+      font-weight: 600; }
+    .Featured__hero .Featured__hero__content .Featured__hero__content__decorator {
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  @media only screen and (min-width: 992px) {
+    .Featured__hero {
+      height: 60vh; } }

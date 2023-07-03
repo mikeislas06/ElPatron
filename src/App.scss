@@ -12,6 +12,9 @@
 	--secondary-100: #ffcc00;
 	--secondary-200: #916e00;
 	--secondary-300: #db9423;
+	--secondary-400: #ed7a00;
+	--secondary-500: #e6c698;
+	--secondary-600: #ba7c28;
 	--accent-100: #990000;
 	--accent-200: #ffa783;
 	--text-100: #54595f;
@@ -26,7 +29,7 @@
 
 body,
 html {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	margin: 0;
 	padding: 0;
 	line-height: 1.2;
@@ -35,6 +38,7 @@ html {
 h1,
 h2,
 h3,
+h4,
 p {
 	margin: 0;
 	font-weight: 400;

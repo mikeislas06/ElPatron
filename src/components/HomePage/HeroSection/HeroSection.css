@@ -1,7 +1,7 @@
 .Hero {
   position: relative;
-  overflow: hidden;
-  height: calc(100vh - 130px); }
+  height: calc(100vh - 130px);
+  overflow: hidden; }
   @media only screen and (min-width: 768px) {
     .Hero {
       height: calc(80vh - 130px); } }
@@ -10,10 +10,7 @@
       height: calc(100vh - 130px); } }
 
 .Hero__video-background {
-  user-select: none;
-  margin: auto;
-  max-width: 100%;
-  max-height: 100%; }
+  user-select: none; }
   @media only screen and (min-width: 992px) {
     .Hero__video-background {
       width: 100%; } }
@@ -35,9 +32,11 @@
   @media only screen and (min-width: 768px) {
     .Hero__content {
       height: 70%;
-      width: unset; } }
+      width: unset;
+      padding: 0px 15px; } }
   @media only screen and (min-width: 992px) {
     .Hero__content {
+      height: 80%;
       padding: 40px; } }
 
 .Hero__content__decoration {
@@ -49,16 +48,17 @@
       margin-bottom: 20px; } }
 
 .Hero__content__title1 {
-  color: var(--secondary-300);
   font-family: 'Abril Fatface', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  color: var(--secondary-300);
+  letter-spacing: 3px;
   margin-bottom: 20px; }
   @media only screen and (min-width: 768px) {
     .Hero__content__title1 {
-      font-size: 3.5rem; } }
+      font-size: 2.5rem; } }
   @media only screen and (min-width: 1320px) {
     .Hero__content__title1 {
-      font-size: 5rem;
+      font-size: 3.5rem;
       margin-bottom: 50px; } }
 
 .Hero__content__title2 {
@@ -68,10 +68,10 @@
   margin-bottom: 20px; }
   @media only screen and (min-width: 768px) {
     .Hero__content__title2 {
-      font-size: 2.5rem; } }
+      font-size: 3rem; } }
   @media only screen and (min-width: 1320px) {
     .Hero__content__title2 {
-      font-size: 3.5rem;
+      font-size: 4rem;
       margin-bottom: 50px; } }
 
 .Hero__content__description {
@@ -80,7 +80,7 @@
   margin-bottom: 20px; }
   @media only screen and (min-width: 768px) {
     .Hero__content__description {
-      font-size: 1rem; } }
+      font-size: 1.2rem; } }
   @media only screen and (min-width: 1320px) {
     .Hero__content__description {
       font-size: 1.2rem;

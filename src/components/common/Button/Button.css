@@ -1,0 +1,20 @@
+.Button {
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 0.7rem; }
+  @media only screen and (min-width: 768px) {
+    .Button {
+      padding: 15px;
+      font-size: 1rem; } }
+
+.outlined {
+  border: 1px solid var(--secondary-300);
+  transition: background-color 0.2s linear; }
+  .outlined:hover {
+    background-color: var(--secondary-300); }
+
+.contained {
+  background-color: var(--secondary-300);
+  transition: background-color 0.2s linear; }
+  .contained:hover {
+    background-color: var(--secondary-400); }

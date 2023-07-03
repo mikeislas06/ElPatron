@@ -1,0 +1,29 @@
+.Steak {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  gap: 20px; }
+
+.Steak__image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px; }
+  @media only screen and (min-width: 992px) {
+    .Steak__image {
+      width: 200px;
+      height: 200px; } }
+
+.Steak__name {
+  font-family: 'Abril Fatface', sans-serif;
+  font-size: 1.7rem; }
+  @media only screen and (min-width: 768px) {
+    .Steak__name {
+      font-size: 2rem; } }
+
+.Steak__description {
+  font-size: 0.9rem; }
+  @media only screen and (min-width: 768px) {
+    .Steak__description {
+      font-size: 1.1rem; } }

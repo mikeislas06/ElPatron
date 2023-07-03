@@ -1,0 +1,141 @@
+@import '../../../mixins';
+
+.History {
+	background: radial-gradient(
+		circle at bottom,
+		#ffe4c4,
+		#ffe4c4 10%,
+		transparent 10%,
+		transparent 20%,
+		#ffe4c4 20%,
+		#ffe4c4 30%,
+		transparent 30%,
+		transparent 40%,
+		#ffe4c4 40%,
+		#ffe4c4 50%,
+		transparent 50%,
+		transparent 60%,
+		#ffe4c4 60%,
+		#ffe4c4 70%,
+		transparent 70%,
+		transparent 80%,
+		#ffe4c4 80%,
+		#ffe4c4 90%,
+		transparent 90%
+	);
+	background-size: 1em 1em;
+	background-color: #ffffff;
+	opacity: 1;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 70px 35px;
+
+	@include desktop {
+		flex-wrap: nowrap;
+		gap: 50px;
+	}
+}
+
+.History__info {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.History__info__main-title {
+	font-family: 'Abril Fatface', sans;
+	font-size: 1.5rem;
+
+	@include tablet {
+		font-size: 2.5rem;
+	}
+}
+
+.History__info__logo {
+	width: 80%;
+	margin: -20px auto -30px;
+
+	@include tablet {
+		width: 50%;
+	}
+}
+
+.History__info__decorator {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.History__info__secondary-title {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-size: 0.8rem;
+
+	@include tablet {
+		font-size: 1.2rem;
+	}
+}
+
+.History__info__p1 {
+	margin-bottom: 25px;
+	font-size: 0.8rem;
+	text-align: justify;
+
+	@include tablet {
+		font-size: 1.2rem;
+	}
+}
+
+.History__info__p2 {
+	margin-bottom: 25px;
+	font-size: 0.8rem;
+	text-align: justify;
+
+	@include tablet {
+		font-size: 1.2rem;
+	}
+}
+
+.History__images {
+	margin-top: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+
+	.img1 {
+		clip-path: polygon(
+			0 0,
+			calc(100% - 60px) 0,
+			100% 60px,
+			100% 100%,
+			60px 100%,
+			0 calc(100% - 60px)
+		);
+	}
+
+	.img2 {
+		clip-path: polygon(
+			0 60px,
+			60px 0,
+			100% 0,
+			100% calc(100% - 60px),
+			calc(100% - 60px) 100%,
+			0 100%
+		);
+	}
+
+	img {
+		width: 45%;
+
+		@include tablet {
+			width: 35%;
+		}
+	}
+}
