@@ -25,3 +25,9 @@ Los principales objetivos del proyecto son:
 ## Contribuciones
 
 Se aceptarán contribuciones al proyecto en forma de mejoras de diseño, correcciones de errores, optimizaciones de rendimiento y nuevas características. Si estás interesado en colaborar, por favor, consulta el archivo CONTRIBUTING.md para obtener más información sobre cómo contribuir.
+
+## Sitio web
+
+Para visualizar el proyecto se puede acceder desde el siguiente link:
+
+[El Patrón Churrascaría Brasileña](http://elpatron-dev.netlify.app 'Title').
