@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Página web de una Churrascaría Brasileña
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto consiste en el diseño y desarrollo de una página web para una churrascaría brasileña, con el objetivo de promocionar el restaurante y proporcionar información relevante a los visitantes. El proyecto utiliza tecnologías modernas como React, useState, useEffect, SCSS y varias librerías populares como react-router-dom y react-icons. Además, se busca crear un estilo llamativo y atractivo para mejorar el perfil de GitHub del desarrollador.
 
-## Available Scripts
+## Características principales
 
-In the project directory, you can run:
+- **Diseño atractivo:** La página web contará con un diseño visualmente atractivo, utilizando SCSS para estilizar los componentes de React y lograr una apariencia moderna y profesional. Se prestará especial atención a los colores, fuentes y disposición de los elementos en la página.
 
-### `npm start`
+- **Interfaz de usuario interactiva:** Se implementará interactividad utilizando React, aprovechando las capacidades de useState y useEffect para gestionar el estado y los efectos secundarios. Esto permitirá crear una experiencia de usuario fluida y dinámica, con elementos que responden a las acciones del usuario.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Navegación con react-router-dom:** Se utilizará la librería react-router-dom para implementar la navegación entre diferentes secciones de la página web. Esto permitirá tener enlaces amigables y una estructura de navegación clara y fácil de entender para los visitantes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Iconos atractivos con react-icons:** Para mejorar la estética de la página web, se utilizará la librería react-icons para incluir iconos llamativos en diversos lugares, como enlaces, botones y secciones destacadas. Esto agregará un toque visual interesante y ayudará a destacar elementos clave.
 
-### `npm test`
+## Objetivos del proyecto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Los principales objetivos del proyecto son:
 
-### `npm run build`
+1. Diseñar una página web atractiva y moderna para una churrascaría brasileña.
+2. Utilizar tecnologías como React, SCSS, react-router-dom y react-icons para desarrollar la página web.
+3. Aplicar conceptos de useState y useEffect para gestionar el estado y los efectos secundarios de manera efectiva.
+4. Crear una interfaz de usuario interactiva que responda a las acciones del usuario.
+5. Mejorar el perfil de GitHub del desarrollador al presentar un proyecto de desarrollo web destacado.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contribuciones
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Se aceptarán contribuciones al proyecto en forma de mejoras de diseño, correcciones de errores, optimizaciones de rendimiento y nuevas características. Si estás interesado en colaborar, por favor, consulta el archivo CONTRIBUTING.md para obtener más información sobre cómo contribuir.
