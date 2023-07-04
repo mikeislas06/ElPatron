@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Button from '../../common/Button/Button';
-import decorator from '../../../assets/img/decorator.png';
+import decorator from '../../../assets/img/decoradores/decorator.png';
 import cortes from './cortes.js';
 import './FeaturedSection.scss';
 import Steak from './Steak/Steak';

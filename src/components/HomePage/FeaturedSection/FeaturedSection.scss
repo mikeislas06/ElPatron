@@ -18,28 +18,45 @@
 	left: 0;
 	right: 0;
 	margin: auto;
+	z-index: 999;
 }
 
 .Featured__hero {
 	height: 50vh;
 	background: url('../../../assets//img/carnes.png');
 	background-position: center center;
+	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	color: #fff;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0px 30px;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
 
 	.Featured__hero__content {
+		position: relative;
 		width: 90vw;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		gap: 25px;
-		background-color: rgba(0, 0, 0, 0.4);
-		border-radius: 4px;
 		text-align: center;
 		padding: 35px 20px;
 
@@ -54,7 +71,7 @@
 		h4 {
 			font-family: 'Abril Fatface', sans-serif;
 			font-size: 2rem;
-			color: var(--secondary-100);
+			color: var(--secondary-300);
 
 			@include tablet {
 				font-size: 2.4rem;

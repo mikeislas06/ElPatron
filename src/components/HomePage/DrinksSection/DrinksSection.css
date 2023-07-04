@@ -1,0 +1,97 @@
+.Drinks {
+  position: relative; }
+
+.Drinks__hero {
+  height: 40vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../../assets/img/bebidas.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0px 30px; }
+  @media only screen and (min-width: 992px) {
+    .Drinks__hero {
+      height: 60vh; } }
+  .Drinks__hero::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5); }
+  .Drinks__hero .Drinks__hero__content {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    text-align: center; }
+    @media only screen and (min-width: 768px) {
+      .Drinks__hero .Drinks__hero__content {
+        width: 50vw; } }
+    @media only screen and (min-width: 992px) {
+      .Drinks__hero .Drinks__hero__content {
+        width: 30vw; } }
+    .Drinks__hero .Drinks__hero__content h4 {
+      font-family: 'Abril Fatface', sans-serif;
+      font-size: 2rem;
+      color: var(--secondary-300); }
+    .Drinks__hero .Drinks__hero__content p {
+      color: white; }
+
+.Drinks__info__background {
+  background-image: url("../../../assets/img/fondo-negro.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 90vh; }
+  @media only screen and (min-width: 768px) {
+    .Drinks__info__background {
+      height: 70vh; } }
+
+.Drinks__info__bg-img {
+  background-image: url("../../../assets/img/bebidasBack.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  opacity: 0.22; }
+
+.Drinks__info__container {
+  width: 90%;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  place-items: center;
+  gap: 40px; }
+  @media only screen and (min-width: 768px) {
+    .Drinks__info__container {
+      grid-template-columns: repeat(2, 1fr);
+      width: 70%; } }
+  .Drinks__info__container .Drinks__info__content__image {
+    width: 200px;
+    margin-left: -40px; }
+    @media only screen and (min-width: 768px) {
+      .Drinks__info__container .Drinks__info__content__image {
+        width: 300px; } }
+  .Drinks__info__container .Drinks__info__content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    gap: 20px; }
+    .Drinks__info__container .Drinks__info__content #naranjada {
+      color: orange; }
+    .Drinks__info__container .Drinks__info__content #caipirinha {
+      color: greenyellow; }

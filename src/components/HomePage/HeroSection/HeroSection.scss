@@ -16,16 +16,27 @@
 
 .Hero__video-background {
 	user-select: none;
+	position: relative;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+		background-color: rgba(0, 0, 0, 0.6);
+	}
 
 	@include desktop {
-		width: 100%;
+		video {
+			width: 100%;
+		}
 	}
 }
 
 .Hero__content {
 	position: absolute;
-	background-color: #0000004d;
-	border-radius: 4px;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);

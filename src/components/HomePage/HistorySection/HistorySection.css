@@ -7,7 +7,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 35px; }
+  padding: 70px 35px; }
   @media only screen and (min-width: 992px) {
     .History {
       flex-wrap: nowrap;
@@ -51,14 +51,16 @@
 
 .History__info__p1 {
   margin-bottom: 25px;
-  font-size: 0.8rem; }
+  font-size: 0.8rem;
+  text-align: justify; }
   @media only screen and (min-width: 768px) {
     .History__info__p1 {
       font-size: 1.2rem; } }
 
 .History__info__p2 {
   margin-bottom: 25px;
-  font-size: 0.8rem; }
+  font-size: 0.8rem;
+  text-align: justify; }
   @media only screen and (min-width: 768px) {
     .History__info__p2 {
       font-size: 1.2rem; } }

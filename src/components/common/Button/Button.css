@@ -1,11 +1,11 @@
 .Button {
   border-radius: 25px;
   padding: 10px;
-  font-size: 0.7rem; }
+  font-size: 0.9rem; }
   @media only screen and (min-width: 768px) {
     .Button {
       padding: 15px;
-      font-size: 1rem; } }
+      font-size: 1.2rem; } }
 
 .outlined {
   border: 1px solid var(--secondary-300);

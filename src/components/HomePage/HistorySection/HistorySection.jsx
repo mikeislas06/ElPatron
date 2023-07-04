@@ -2,7 +2,7 @@ import React from 'react';
 
 import Button from '../../common/Button/Button';
 import logo from '../../../assets/img/elPatronLogo.png';
-import decorator from '../../../assets/img/decorator.png';
+import decorator from '../../../assets/img/decoradores/decorator.png';
 import img1 from '../../../assets/img/hist1.jpg';
 import img2 from '../../../assets/img/hist2.jpg';
 import './HistorySection.scss';

@@ -1,0 +1,87 @@
+@import '../../../mixins';
+
+.Salads {
+	position: relative;
+}
+
+.Salads__background {
+	position: relative;
+	height: 80vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url('../../../assets/img/ensaladaPlato.jpg');
+	background-position: center center;
+	background-size: cover;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+}
+
+.Salads__content {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	color: white;
+	text-align: justify;
+	width: 80%;
+
+	@include tablet {
+		width: 50%;
+	}
+
+	@include desktop {
+		gap: 30px;
+	}
+
+	.Salads__content__decorator {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+
+		@include tablet {
+			gap: 50px;
+		}
+
+		.line {
+			height: 5px;
+			width: 100px;
+			border-top: solid 1px white;
+			border-bottom: solid 1px white;
+
+			@include tablet {
+				width: 150px;
+			}
+
+			@include desktop {
+				width: 250px;
+			}
+		}
+
+		.img {
+			width: 50px;
+		}
+	}
+
+	h4 {
+		font-family: 'Abril Fatface', sans-serif;
+		font-size: 2rem;
+		color: var(--secondary-300);
+	}
+
+	p {
+		font-size: 1rem;
+	}
+}

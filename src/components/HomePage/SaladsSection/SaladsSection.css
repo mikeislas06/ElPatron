@@ -1,0 +1,65 @@
+.Salads {
+  position: relative; }
+
+.Salads__background {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../../assets/img/ensaladaPlato.jpg");
+  background-position: center center;
+  background-size: cover; }
+  .Salads__background::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5); }
+
+.Salads__content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  color: white;
+  text-align: justify;
+  width: 80%; }
+  @media only screen and (min-width: 768px) {
+    .Salads__content {
+      width: 50%; } }
+  @media only screen and (min-width: 992px) {
+    .Salads__content {
+      gap: 30px; } }
+  .Salads__content .Salads__content__decorator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; }
+    @media only screen and (min-width: 768px) {
+      .Salads__content .Salads__content__decorator {
+        gap: 50px; } }
+    .Salads__content .Salads__content__decorator .line {
+      height: 5px;
+      width: 100px;
+      border-top: solid 1px white;
+      border-bottom: solid 1px white; }
+      @media only screen and (min-width: 768px) {
+        .Salads__content .Salads__content__decorator .line {
+          width: 150px; } }
+      @media only screen and (min-width: 992px) {
+        .Salads__content .Salads__content__decorator .line {
+          width: 250px; } }
+    .Salads__content .Salads__content__decorator .img {
+      width: 50px; }
+  .Salads__content h4 {
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 2rem;
+    color: var(--secondary-300); }
+  .Salads__content p {
+    font-size: 1rem; }

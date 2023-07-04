@@ -5,6 +5,10 @@ import HeroSection from './HeroSection/HeroSection';
 import HistorySection from './HistorySection/HistorySection';
 import CardsSection from './CardsSection/CardsSection';
 import FeaturedSection from './FeaturedSection/FeaturedSection';
+import DrinksSection from './DrinksSection/DrinksSection';
+import SaladsSection from './SaladsSection/SaladsSection';
+import ReviewsSection from './Reviews.Section/ReviewsSection';
+import FooterSection from './FooterSection/FooterSection';
 
 const HomePage = () => {
 	return (
@@ -13,6 +17,10 @@ const HomePage = () => {
 			<HistorySection />
 			<CardsSection />
 			<FeaturedSection />
+			<DrinksSection />
+			<SaladsSection />
+			<ReviewsSection />
+			<FooterSection />
 		</>
 	);
 };

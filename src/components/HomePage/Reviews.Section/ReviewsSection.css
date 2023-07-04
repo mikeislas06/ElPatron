@@ -1,0 +1,38 @@
+.Reviews {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35px; }
+
+.Reviews__title {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; }
+  .Reviews__title h4 {
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 1.8rem; }
+  .Reviews__title .Reviews__title__decorator {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .Reviews__title p {
+    font-size: 0.9rem; }
+
+.Reviews__users {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 25px;
+  place-items: center;
+  margin-top: 50px; }
+  @media only screen and (min-width: 768px) {
+    .Reviews__users {
+      grid-template-columns: repeat(2, 1fr); } }
+  @media only screen and (min-width: 992px) {
+    .Reviews__users {
+      grid-template-columns: repeat(4, 1fr); } }

@@ -10,15 +10,22 @@
       height: calc(100vh - 130px); } }
 
 .Hero__video-background {
-  user-select: none; }
+  user-select: none;
+  position: relative; }
+  .Hero__video-background::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.6); }
   @media only screen and (min-width: 992px) {
-    .Hero__video-background {
+    .Hero__video-background video {
       width: 100%; } }
 
 .Hero__content {
   position: absolute;
-  background-color: #0000004d;
-  border-radius: 4px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);

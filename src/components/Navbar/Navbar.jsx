@@ -45,11 +45,11 @@ const Navbar = () => {
 						Sucursal
 					</NavLink>
 					<NavLink
-						to='/contacto'
+						to='/reservaciones'
 						className='Navbar__menu__item'
 						activeclassname='active'
 					>
-						Contacto
+						Reservaciones
 					</NavLink>
 				</div>
 			</div>
@@ -81,12 +81,12 @@ const Navbar = () => {
 					Sucursal
 				</NavLink>
 				<NavLink
-					to='/contacto'
+					to='/reservaciones'
 					className='Navbar__menu__dropdown_item'
 					activeclassname='active'
 					onClick={() => setShowMenu(false)}
 				>
-					Contacto
+					Reservaciones
 				</NavLink>
 			</div>
 		</>

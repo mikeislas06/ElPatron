@@ -1,10 +1,10 @@
 import React from 'react';
 
-import './LocationPage.scss';
+import './ReservationsPage.scss';
 import ConstructionSite from '../ConstructionSite/ConstructionSite';
 
-const LocationPage = () => {
+const ReservationsPage = () => {
 	return <ConstructionSite />;
 };
 
-export default LocationPage;
+export default ReservationsPage;
