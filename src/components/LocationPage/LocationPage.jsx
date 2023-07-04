@@ -1,10 +1,16 @@
 import React from 'react';
 
 import './LocationPage.scss';
-import ConstructionSite from '../ConstructionSite/ConstructionSite';
+import HeroSection from './HeroSection/HeroSection';
+import BranchesSection from './BranchesSection/BranchesSection';
 
 const LocationPage = () => {
-	return <ConstructionSite />;
+	return (
+		<>
+			<HeroSection />
+			<BranchesSection />
+		</>
+	);
 };
 
 export default LocationPage;

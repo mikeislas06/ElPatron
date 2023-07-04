@@ -1,0 +1,72 @@
+@import '../../../mixins';
+
+.Branch {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	background-image: url('../../../assets/img/fondo-negro.jpg');
+
+	@include tablet {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+.Branch__info__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	padding: 50px 0px;
+
+	.Branch__info__bg {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		border-radius: 10px;
+		border: solid 3px var(--secondary-300);
+		padding: 20px;
+		width: 80%;
+
+		@include desktop {
+			width: 70%;
+		}
+	}
+
+	.Branch__info {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+
+		.icon {
+			font-size: 1.5rem;
+			color: var(--secondary-300);
+		}
+
+		.Branch__info__address__icon {
+			font-size: 2.2rem;
+		}
+		.Branch__info__schedule__icon {
+			font-size: 2.2rem;
+		}
+	}
+
+	.Branch__info__title {
+		color: var(--secondary-300);
+		font-size: 2rem;
+		font-family: 'Abril Fatface', sans-serif;
+	}
+}
+
+.Branch__map__iframe {
+	width: 100%;
+	height: 50vh;
+	border: none;
+
+	@include tablet {
+		height: 100%;
+	}
+}
