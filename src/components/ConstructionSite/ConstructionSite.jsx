@@ -16,10 +16,10 @@ const ConstructionSite = () => {
 					Estamos construyendo algo <strong>FANTASTICO!</strong>
 				</h3>
 				<div className='socialMedia'>
-					<a className='socialIcon' href='#'>
+					<a className='socialIcon' href='/'>
 						<i className='fas fa-envelope'></i>
 					</a>
-					<a className='socialIcon' href='#'>
+					<a className='socialIcon' href='/'>
 						<i className='fab fa-facebook-f'></i>
 					</a>
 				</div>
