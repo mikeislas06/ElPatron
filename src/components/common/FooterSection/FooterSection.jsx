@@ -1,10 +1,10 @@
 import React from 'react';
 import { IoLogoFacebook, IoLogoInstagram } from 'react-icons/io5';
 
-import Button from '../../common/Button/Button';
+import Button from '../Button/Button';
 import decorator from '../../../assets/img/decoradores/decorator.png';
 import './FooterSection.scss';
-import DecoratorTriangle from '../../common/DecoratorTriangle/DecoratorTriangle';
+import DecoratorTriangle from '../DecoratorTriangle/DecoratorTriangle';
 
 const FooterSection = () => {
 	return (

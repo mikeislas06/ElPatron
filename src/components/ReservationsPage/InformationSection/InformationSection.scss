@@ -1,0 +1,72 @@
+@import '../../../mixins';
+
+.Info__hero {
+	background-image: url('../../../assets/img/back3.jpg');
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	height: 70vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: inherit;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+}
+
+.Info__content {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 25px;
+	font-family: 'Abril Fatface', sans-serif;
+	width: 80vw;
+
+	img {
+		margin: 0 auto;
+		width: 50%;
+
+		@include tablet {
+			width: 30%;
+		}
+
+		@include desktop {
+			width: 20%;
+		}
+	}
+
+	p {
+		color: var(--secondary-300);
+		font-size: 1.3rem;
+
+		@include tablet {
+			font-size: 1.5rem;
+		}
+
+		@include desktop {
+			font-size: 1.8rem;
+		}
+	}
+
+	h3 {
+		color: white;
+		font-size: 2.8rem;
+
+		@include tablet {
+			font-size: 3rem;
+		}
+
+		@include desktop {
+			font-size: 3.5rem;
+		}
+	}
+}

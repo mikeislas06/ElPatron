@@ -1,0 +1,46 @@
+.formulario-contacto {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #333333;
+  padding: 1.5rem;
+  border-radius: 10px; }
+  .formulario-contacto .title {
+    color: white;
+    text-align: center;
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 15px; }
+  .formulario-contacto .campo {
+    margin-bottom: 1.2rem; }
+    .formulario-contacto .campo label {
+      font-weight: bold;
+      color: #db9423; }
+    .formulario-contacto .campo input,
+    .formulario-contacto .campo select {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: white; }
+    .formulario-contacto .campo input[type='submit'] {
+      background-color: #db9423;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease; }
+      .formulario-contacto .campo input[type='submit']:hover {
+        background-color: #af761c; }
+  @media only screen and (min-width: 768px) {
+    .formulario-contacto {
+      max-width: 600px; } }
+  @media only screen and (min-width: 992px) {
+    .formulario-contacto {
+      max-width: 800px; }
+      .formulario-contacto .campo {
+        grid-template-columns: 1fr 2fr; }
+      .formulario-contacto .boton-enviar {
+        justify-content: flex-start; } }

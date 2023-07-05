@@ -8,7 +8,7 @@ import FeaturedSection from './FeaturedSection/FeaturedSection';
 import DrinksSection from './DrinksSection/DrinksSection';
 import SaladsSection from './SaladsSection/SaladsSection';
 import ReviewsSection from './Reviews.Section/ReviewsSection';
-import FooterSection from './FooterSection/FooterSection';
+import FooterSection from '../common/FooterSection/FooterSection';
 
 const HomePage = () => {
 	return (

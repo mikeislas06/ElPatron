@@ -1,10 +1,16 @@
 import React from 'react';
 
 import './ReservationsPage.scss';
-import ConstructionSite from '../ConstructionSite/ConstructionSite';
+import InformationSection from './InformationSection/InformationSection';
+import FormSection from './FormSection/FormSection';
 
 const ReservationsPage = () => {
-	return <ConstructionSite />;
+	return (
+		<>
+			<InformationSection />
+			<FormSection />
+		</>
+	);
 };
 
 export default ReservationsPage;
