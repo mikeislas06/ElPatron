@@ -20,14 +20,6 @@
 	background-position: center center;
 	background-size: cover;
 
-	@include desktop {
-		height: 100vh;
-	}
-
-	@include large {
-		height: 80vh;
-	}
-
 	&::before {
 		content: '';
 		position: absolute;

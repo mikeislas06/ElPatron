@@ -19,9 +19,6 @@
   @media only screen and (min-width: 992px) {
     .Footer__background {
       height: 100vh; } }
-  @media only screen and (min-width: 1320px) {
-    .Footer__background {
-      height: 80vh; } }
   .Footer__background::before {
     content: '';
     position: absolute;

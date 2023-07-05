@@ -6,6 +6,14 @@
   background-color: #333333;
   padding: 1.5rem;
   border-radius: 10px; }
+  .formulario-contacto .boton-enviar {
+    justify-content: flex-start;
+    background-color: var(--secondary-300);
+    color: white;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 25px;
+    border-radius: 25px; }
   .formulario-contacto .title {
     color: white;
     text-align: center;
@@ -13,7 +21,10 @@
     font-size: 1.5rem;
     margin-bottom: 15px; }
   .formulario-contacto .campo {
-    margin-bottom: 1.2rem; }
+    margin-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; }
     .formulario-contacto .campo label {
       font-weight: bold;
       color: #db9423; }
@@ -39,8 +50,4 @@
       max-width: 600px; } }
   @media only screen and (min-width: 992px) {
     .formulario-contacto {
-      max-width: 800px; }
-      .formulario-contacto .campo {
-        grid-template-columns: 1fr 2fr; }
-      .formulario-contacto .boton-enviar {
-        justify-content: flex-start; } }
+      max-width: 800px; } }

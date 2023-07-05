@@ -21,11 +21,11 @@ const HistorySection = () => {
 				<p className='History__info__secondary-title'>
 					Nuestra deliciosa historia
 				</p>
-				<p className='History__info__p1'>
+				{/* <p className='History__info__p1'>
 					Con más de 10 años de experiencia y 4 sucursales en la república
 					mexicana, Picanha y Carvão se ha posicionado como una marca líder
 					dentro del ramo de la gastronomía brasileña.
-				</p>
+				</p> */}
 				<p className='History__info__p2'>
 					Nuestro principal objetivo es ofrecerle a nuestros clientes un
 					servicio de calidad y los más finos cortes de carne al carbón en

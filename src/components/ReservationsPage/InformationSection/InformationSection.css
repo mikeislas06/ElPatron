@@ -26,17 +26,29 @@
   font-family: 'Abril Fatface', sans-serif;
   width: 80vw; }
   .Info__content img {
-    width: 50%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 50%; }
+    @media only screen and (min-width: 768px) {
+      .Info__content img {
+        width: 30%; } }
+    @media only screen and (min-width: 992px) {
+      .Info__content img {
+        width: 20%; } }
   .Info__content p {
     color: var(--secondary-300);
     font-size: 1.3rem; }
     @media only screen and (min-width: 768px) {
       .Info__content p {
         font-size: 1.5rem; } }
+    @media only screen and (min-width: 992px) {
+      .Info__content p {
+        font-size: 1.8rem; } }
   .Info__content h3 {
     color: white;
     font-size: 2.8rem; }
     @media only screen and (min-width: 768px) {
       .Info__content h3 {
         font-size: 3rem; } }
+    @media only screen and (min-width: 992px) {
+      .Info__content h3 {
+        font-size: 3.5rem; } }
