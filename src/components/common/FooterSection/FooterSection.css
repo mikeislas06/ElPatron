@@ -16,9 +16,6 @@
   background-image: url("../../../assets/img/hotel-diner-dining.jpg");
   background-position: center center;
   background-size: cover; }
-  @media only screen and (min-width: 992px) {
-    .Footer__background {
-      height: 100vh; } }
   .Footer__background::before {
     content: '';
     position: absolute;
