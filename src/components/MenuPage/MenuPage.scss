@@ -1,0 +1,42 @@
+@import "../../mixins";
+
+.Menu {
+  background-image: url("../../assets/img/fondo-negro.jpg");
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 35px;
+  min-height: calc(100vh - 130px);
+}
+
+.menuAlimentos {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+
+  @include tablet {
+    width: 70%;
+  }
+
+  @include desktop {
+    width: 50%;
+  }
+}
+
+.menuBebidas {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+
+  @include tablet {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include large {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

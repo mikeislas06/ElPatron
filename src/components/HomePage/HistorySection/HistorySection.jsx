@@ -31,7 +31,7 @@ const HistorySection = () => {
 					servicio de calidad y los más finos cortes de carne al carbón en
 					espadas brasileñas. Nuestro sistema rotativo le permitirá ser
 					partícipe de un desfile de sabores por su plato. Se deleitará de
-					pollo, res, cordero, cerdo, pavo y otras preparaciones; además de una
+					pollo, res, cerdo, pavo y otras preparaciones; además de una
 					gran variedad de ensaladas frescas dulces y saladas, guisados, postres
 					y mucho más en nuestra barra de ensaladas.
 				</p>
