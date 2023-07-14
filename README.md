@@ -1,6 +1,6 @@
 # Página web de una Churrascaría Brasileña
 
-Este proyecto consiste en el diseño y desarrollo de una página web para una churrascaría brasileña, con el objetivo de promocionar el restaurante y proporcionar información relevante a los visitantes. El proyecto utiliza tecnologías modernas como React, useState, useEffect, SCSS y varias librerías populares como react-router-dom y react-icons. Además, se busca crear un estilo llamativo y atractivo para mejorar el perfil de GitHub del desarrollador.
+Este proyecto consiste en el diseño y desarrollo de una página web para una churrascaría brasileña, con el objetivo de promocionar el restaurante y proporcionar información relevante a los visitantes. El proyecto utiliza tecnologías modernas como React, useState, useEffect, SCSS y varias librerías populares como react-router-dom y react-icons. 
 
 ## Características principales
 
